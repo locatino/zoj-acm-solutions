@@ -15,9 +15,7 @@ public class Main{
 	}
 	public static int calculate(double temp){
 		int result = 1;
-//		System.out.println(temp);
 		double now = solveTheFunction(result);
-//		System.out.println(now);
 			while(temp > now){
 				result++;
 				now += solveTheFunction(result);
